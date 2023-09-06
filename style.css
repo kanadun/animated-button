@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #000;
+}
+
+.container {
+    margin: auto;
+}
+
+button {
+    padding: 18px 60px;
+    margin: 20px;
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+    border-radius: 60px 60px;
+    transition: .4s ease-in;
+}
+
+.btn-1:hover {
+    box-shadow: inset -140px 0px 0px 0px #ff0000, inset 140px 0px 0px 0px #ff0000;
+}
+
+.btn-2:hover{
+    background-color: #ffff00;
+    box-shadow: 0px 0px 5px #ffff00, 0px 0px 150px #ffff00, 0px 0px 200px #ffff00,0px 0px 350px #ffff00,0px 0px 400px #ffff00,0px 0px 450px #ffff00 , 0px 0px 500px #ffff00,0px 0px 550px #ffff00,0px 0px 600px #ffff00,0px 0px 650px #ffff00,0px 0px 700px #ffff00,0px 0px 750px #ffff00,0px 0px 800px #ffff00,0px 0px 850px #ffff00,0px 0px 900px #ffff00,0px 0px 950px #ffff00,0px 0px 1000px #ffff00;
+}
+
+.btn-3:hover {
+    box-shadow: 10px 10px 0px #ff0000;
+}
+
+.btn-4:hover {
+    box-shadow: inset 4px 4px 4px #ff0000, inset -4px -4px 4px #ff0000;
+    background-color: #000;
+    color: #ff0000;
+}  
+
+.con2 {
+    color: #000000;
+    background: #00ffff;
+}
+
+.ol{
+    padding: 18px 60px;
+    margin: 20px;
+    font-size: 1em;
+    font-family: sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+    border-radius: 60px 60px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.l1:hover{
+    box-shadow: 0px 0px 200px #ff0000 ,0px 0px 250px #ff0000,0px 0px 300px #ff0000,0px 0px 350px #ff0000,0px 0px 400px #ff0000;
+    padding: 20px;
+}
+
+.l2:hover {
+    box-shadow: 0px 0px 200px #008000 ,0px 0px 250px #008000,0px 0px 300px #008000,0px 0px 300px #008000;
+    padding: 20px;
+}
+
+.l3:hover{
+    box-shadow: 0px 0px 200px #ee82ee,0px 0px 250px #ee82ee,0px 0px 300px #ee82ee;
+    padding: 20px;
+}
+
+.l4:hover{
+    box-shadow: 0px 0px 200px #00008b,0px 0px 250px #00008b,0px 0px 300px #00008b,0px 0px 350px #00008b;
+    padding: 20px;
+}
